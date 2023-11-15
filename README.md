@@ -5,5 +5,5 @@
 ## Rendering
 
 ```sh
-  archetect render https://github.com/archetect-rust/rust.catalog.git
+  archetect catalog https://github.com/archetect-rust/rust.catalog.git
 ```
