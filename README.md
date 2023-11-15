@@ -4,6 +4,8 @@
 
 ## Rendering
 
+To generate an Archetype from this Catalog, copy and execute the following command:
+
 ```sh
-  archetect catalog https://github.com/archetect-rust/rust.catalog.git
+archetect catalog https://github.com/archetect-rust/rust.catalog.git
 ```
