@@ -7,5 +7,5 @@
 To generate an Archetype from this Catalog, copy and execute the following command:
 
 ```sh
-archetect catalog https://github.com/archetect-rust/rust.catalog.git
+archetect render https://github.com/archetect-rust/rust.catalog.git
 ```
