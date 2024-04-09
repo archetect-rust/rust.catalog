@@ -9,10 +9,9 @@ requires:
   archetect: "2.0.0-ALPHA.3"
 
 entries:
-  - catalog:
-      description: "Example Top-Level catalog"
-      source: https://github.com/archetect/archetype-starters.catalog.git
-  - archetype:
-      description: "Example Top-Level archetype"
-      source: https://github.com/archetect/basic-archetype-starter.archetype.git
-
+  - group:
+      description: "Services"
+      entries:
+        - archetype:
+            description: "Tonic gRPC Service"
+            source: "https://github.com/archetect-rust/rust-service-tonic-grpc.archetype.git"
