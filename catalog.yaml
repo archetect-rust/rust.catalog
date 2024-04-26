@@ -13,8 +13,9 @@ entries:
       description: "Services"
       entries:
         - archetype:
-            description: "Rust gRPC Service (Axum/Tonic)"
+            description: "Rust gRPC Service"
             source: "https://github.com/archetect-rust/rust-service-tonic-grpc.archetype.git"
         - archetype:
-            description: "Rust GraphQL Service / Domain Gateway (Axum/async-graphql)"
+            description: "Rust GraphQL Service"
             source: "https://github.com/archetect-rust/rust-service-graphql.archetype.git"
+
