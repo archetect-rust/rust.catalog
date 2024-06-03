@@ -18,4 +18,7 @@ entries:
         - archetype:
             description: "Rust GraphQL Service"
             source: "https://github.com/archetect-rust/rust-service-graphql.archetype.git"
+        - archetype:
+            description: "Rust Axum Server (Modular with CLI and Config)"
+            source: https://github.com/archetect-rust/rust-axum-modular-configurable.archetype.git
 
