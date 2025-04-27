@@ -1,0 +1,29 @@
+---
+description: "Rust Root Catalog"
+authors: ["Jimmie Fulton <jimmie.fulton@gmail.com>"]
+languages: []
+frameworks: []
+tags: []
+
+requires:
+  archetect: "2.0.0"
+
+entries:
+  - group:
+      description: "Scaffolding"
+      entries:
+        - archetype:
+            description: "Rust Workspace Scaffolding"
+            source: "git@github.com:archetect-rust/rust-workspace-scaffolding.archetype.git#v1"
+  - group:
+      description: "Services"
+      entries:
+        - archetype:
+            description: "Rust gRPC Service"
+            source: "git@github.com:archetect-rust/rust-service-tonic-grpc.archetype.git"
+        - archetype:
+            description: "Rust GraphQL Service"
+            source: "git@github.com:archetect-rust/rust-service-graphql.archetype.git"
+        - archetype:
+            description: "Rust Axum Server (Modular with CLI and Config)"
+            source: git@github.com:archetect-rust/rust-axum-modular-configurable.archetype.git
